@@ -1,0 +1,70 @@
+.home {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #a37051;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Video background */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Overlay with dark background and text */
+.overlay {
+  position: relative;
+  z-index: 1;
+  background-color: #a37051;
+  padding: 1.2rem;
+  text-align: center;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+.cta {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.cta-button {
+  background-color: #a37051;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
