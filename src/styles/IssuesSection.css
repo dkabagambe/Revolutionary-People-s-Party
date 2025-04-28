@@ -1,0 +1,50 @@
+.issues-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.issues-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.issues-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.issue-card {
+  background: #f7f7f7;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.issue-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.issue-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.issue-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #c00;
+}
+
+.issue-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .issues-title {
+    font-size: 2rem;
+  }
+}

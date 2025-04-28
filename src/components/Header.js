@@ -16,7 +16,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <Link to="/" className="logo-link">
-            <img src={logo} alt="SACRED GEM SAFARIS" />
+            <img src={logo} alt="RPP)" />
           </Link>
         </div>
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
