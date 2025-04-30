@@ -21,9 +21,25 @@ const Home = () => {
           </div>
         </section>
         <section className="cta">
-          <h2>Get Updates</h2>
-          <p>Stay informed with the latest news and policy updates.</p>
-          <button className="cta-button">Sign Up</button>
+          <h2>
+            Mission Statement for the Revolutionary Peoples Party (RPP) – Uganda
+          </h2>
+          <p>
+            The Revolutionary Peoples Party (RPP) is committed to transforming
+            Uganda through inclusive, transparent, and accountable governance
+            that places citizens at the heart of national development. Our
+            mission is to dismantle entrenched systems of corruption,
+            marginalization, and political elitism by empowering every
+            Ugandan—regardless of background—to participate meaningfully in
+            shaping their future. We aim to rebuild public trust in leadership
+            by advocating for justice, equitable resource distribution, and a
+            governance model rooted in people-centered policies, civic
+            education, and grassroots mobilization. Guided by the spirit of
+            Pan-Africanism and democratic renewal, RPP seeks to bridge the gap
+            between government and citizens, restore institutional integrity,
+            and uphold the fundamental rights and aspirations of all Ugandans
+          </p>
+          <button className="cta-button">Join RPP</button>
         </section>
       </div>
       <MissionSection />

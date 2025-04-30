@@ -5,13 +5,14 @@ const MissionSection = () => {
   return (
     <div className="mission-container">
       <section className="mission">
-        <h2 className="section-title">Our Mission</h2>
+        <h2 className="section-title">Short Mission</h2>
         <p className="mission-text">
-          We are committed to building a stronger, freer nation for every
-          American. Our principles are rooted in liberty, opportunity, and
-          justice for all.
+          RPP is dedicated to building a just, inclusive, and accountable Uganda
+          by championing transparent leadership, empowering citizens, and
+          restoring dignity through people-centered governance and equitable
+          development.
         </p>
-        <div className="values">
+        {/* <div className="values">
           <div className="value-card">
             <h3>Freedom</h3>
             <p>Protecting individual rights and constitutional liberties.</p>
@@ -28,27 +29,85 @@ const MissionSection = () => {
             <h3>Innovation</h3>
             <p>Driving economic growth and technology leadership.</p>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <section className="policies">
-        <h2 className="section-title">Key Issues</h2>
+        <h2 className="section-title">
+          Core Values and Founding Ideas of the Revolutionary Peoples Party
+          (RPP)
+        </h2>
         <div className="policy-grid">
           <div className="policy-card">
-            <h4>Healthcare</h4>
-            <p>Affordable, accessible healthcare for every American.</p>
+            <h4>People-Centered Governance</h4>
+            <p>
+              Leadership must serve the people first, prioritizing public
+              welfare over personal gain.
+            </p>
           </div>
           <div className="policy-card">
-            <h4>Economy</h4>
-            <p>Lower taxes, more jobs, and economic freedom.</p>
+            <h4>Transparency and Accountability</h4>
+            <p>
+              All leaders must be answerable to the people, and all processes
+              open to scrutiny.
+            </p>
           </div>
           <div className="policy-card">
-            <h4>Education</h4>
-            <p>Quality education and school choice for families.</p>
+            <h4>Equity and Social Justice:</h4>
+            <p>
+              Every Ugandan, regardless of background, deserves equal
+              opportunity, dignity, and protection under the law.
+            </p>
           </div>
           <div className="policy-card">
-            <h4>National Security</h4>
-            <p>Strong borders and a strong military to protect our future.</p>
+            <h4>Inclusive Participation</h4>
+            <p>
+              Youth, women, and marginalized groups must be actively involved in
+              shaping national decisions.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Unity and National Identity</h4>
+            <p>
+              The party promotes unity beyond tribe, religion, or region, rooted
+              in pride for Uganda and Africa at large.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Pan-Africanism and Sovereignty</h4>
+            <p>
+              RPP supports African self-determination, economic independence,
+              and solidarity with other progressive movements across the
+              continent.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Meritocracy in Leadership</h4>
+            <p>
+              Leadership at all levels must be based on competence, integrity,
+              and patriotism—not favoritism or political loyalty.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Civic Empowerment</h4>
+            <p>
+              Informed, educated citizens are essential to building a functional
+              democracy and holding leaders accountable.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Anti-Corruption Stance</h4>
+            <p>
+              Zero tolerance for misuse of public office or funds; integrity is
+              non-negotiable.
+            </p>
+          </div>
+          <div className="policy-card">
+            <h4>Transformational Change</h4>
+            <p>
+              Not content with reforms alone, RPP seeks a fundamental rethinking
+              of governance to serve the future of all Ugandans.
+            </p>
           </div>
         </div>
       </section>

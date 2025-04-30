@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/CandidatesSection.css";
-
+import mutasa from "../img/charles mutasa kafeero.jpeg";
 const candidates = [
   {
     name: "charles mutasa kafeero",
     constituency: "president of uganda",
-    imageUrl:
-      "https://scontent.febb9-1.fna.fbcdn.net/v/t39.30808-6/476836665_122104297670756842_1040663390210722050_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MRCNjvSPBnQQ7kNvwGi-qHv&_nc_oc=AdnQ5cnGfWI7yIaeQsbQvTuhZlrygPhKnqOAd-We3RWcM700waKp5k8U1QVUG46UCVI&_nc_zt=23&_nc_ht=scontent.febb9-1.fna&_nc_gid=vl5QpvcFppG3Mub6ne7PNg&oh=00_AfHyaHk6WDXM_q6FndXCsQfiaPCkxkvInyBKVczRLPkIrA&oe=68154F4E",
+    imageUrl: mutasa,
   },
   {
     name: "Muweebwa Betty",

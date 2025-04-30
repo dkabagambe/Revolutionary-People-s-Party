@@ -3,41 +3,35 @@ import "../styles/IssuesSection.css";
 
 const issues = [
   {
-    title: "Economic Growth",
-    description: "Policies that create jobs and strengthen small businesses.",
-    icon: "💼",
+    title: "Youth Wing",
+    description:
+      "Focuses on engaging young Ugandans, promoting political education, and nurturing future leaders.",
+    icon: "🧒 ",
   },
   {
-    title: "Education Reform",
-    description: "Improving schools and empowering parents' choices.",
-    icon: "🎓",
+    title: "Women’s Wing",
+    description:
+      "Advocates for gender equality, women's rights, and increased female participation in politics.",
+    icon: "👭",
   },
   {
-    title: "Healthcare",
-    description: "Affordable healthcare solutions for all citizens.",
-    icon: "🏥",
+    title: "Veterans' Wing",
+    description:
+      "Leverages the experience of seasoned members to mentor new entrants and preserve institutional memory.",
+    icon: "👴🏿",
   },
   {
-    title: "National Security",
-    description: "Strong borders and support for law enforcement.",
-    icon: "🛡️",
-  },
-  {
-    title: "Freedom & Rights",
-    description: "Defending freedom of speech and religious liberty.",
-    icon: "🗽",
-  },
-  {
-    title: "Innovation & Technology",
-    description: "Investing in modern infrastructure and tech innovation.",
-    icon: "💡",
+    title: "Policy and Research Committee",
+    description:
+      "Develops evidence-based policies and conducts research to inform party positions.",
+    icon: "📚",
   },
 ];
 
 const IssuesSection = () => {
   return (
     <div className="issues-section">
-      <h2 className="issues-title">Our Priorities</h2>
+      <h2 className="issues-title">Specialized Wings and Committees</h2>
       <div className="issues-grid">
         {issues.map((issue, index) => (
           <div key={index} className="issue-card">

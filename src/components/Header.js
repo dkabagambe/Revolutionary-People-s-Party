@@ -35,6 +35,9 @@ const Header = () => {
           <Link to="/contact" className="nav-link">
             Contact
           </Link>
+          <Link to="/membership" className="nav-link">
+            Register
+          </Link>
         </nav>
         <button className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
