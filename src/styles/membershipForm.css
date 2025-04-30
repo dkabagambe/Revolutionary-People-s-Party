@@ -15,7 +15,8 @@ h1 {
 .subheading {
   text-align: center;
   font-weight: bold;
-  color: #16a085;
+  font-size: 20px;
+  color: red;
 }
 
 .description {
@@ -36,6 +37,7 @@ h1 {
   padding: 0.6rem;
   border-radius: 5px;
   border: 1px solid #ccc;
+  outline: none;
 }
 
 .checkbox-group {
@@ -48,7 +50,7 @@ h1 {
 }
 
 button[type="submit"] {
-  background-color: #27ae60;
+  background: #a37051;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -59,7 +61,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #219150;
+  background: #fd7724;
 }
 
 .payment-info {
@@ -73,6 +75,7 @@ button[type="submit"]:hover {
 .payment-info h3 {
   margin-top: 0;
   color: #27ae60;
+  color: #a37051;
 }
 
 .payment-info ul {
