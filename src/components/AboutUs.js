@@ -4,6 +4,7 @@ import "../styles/AboutUs.css";
 import rally from "../img/4a14dc9f-f8e8-42be-a281-45a3ca29f9f5.jpeg";
 import cmk from "../img/cmk.jpg";
 import jafar from "../img/dafali.jpg";
+import who from "../img/who-we-are.jpg";
 const AboutUs = () => {
   return (
     <div className="about-us">
@@ -51,7 +52,7 @@ const AboutUs = () => {
           </blockquote>
         </div>
         <div className="story-image">
-          <img src={rally} alt="Founding rally" />
+          <img src={who} alt="Founding rally" />
         </div>
       </section>
 
@@ -145,6 +146,35 @@ const AboutUs = () => {
               </span>
             </p>
           </details>
+        </div>
+      </section>
+
+      <section className="our-story">
+        <div className="story-image">
+          <img src={rally} alt="Founding rally" />
+        </div>
+        <div className="story-text">
+          <h2>Who We Are – Revolutionary Peoples Party (RPP)</h2>
+          <p>
+            The Revolutionary Peoples Party (RPP) is a progressive political
+            movement in Uganda founded on the principles of justice, equity, and
+            democratic renewal. Registered in 2013, RPP emerged in response to
+            growing public frustration with widespread corruption, governance
+            failures, and the exclusion of ordinary Ugandans from meaningful
+            participation in national development. We are a people-centered
+            party, driven by the conviction that real change can only be
+            achieved when leadership is accountable, transparent, and grounded
+            in the lived realities of its citizens. RPP brings together Ugandans
+            from all walks of life—youth, women, workers, farmers, and
+            professionals—who are united by a shared desire to reclaim the
+            nation’s destiny and build a fair, inclusive society. We believe
+            that every Ugandan has the right to dignity, opportunity, and a
+            voice in shaping the policies that affect their lives. Through
+            grassroots mobilization, civic empowerment, and bold policy reforms,
+            we are laying the foundation for a new era of leadership that puts
+            people first.
+          </p>
+          <blockquote>“Transforming Lives, Building a Nation.”</blockquote>
         </div>
       </section>
     </div>
