@@ -1,0 +1,205 @@
+.about-us {
+  color: #000;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("../img/ef9a33d2-82dd-4a50-83ff-e95e6024019c.jpeg")
+    center/cover no-repeat;
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.hero-btn {
+  background: #008000;
+  color: #fff;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.hero-btn:hover {
+  background: #006400;
+}
+
+/* Our Story */
+.our-story {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  background: #f5fdf6;
+}
+.story-text {
+  flex: 1;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  line-height: 2;
+}
+.story-text h2 {
+  font-size: 2.2rem;
+  color: #0d3d0d;
+}
+.story-text blockquote {
+  font-style: italic;
+  margin-top: 1rem;
+  color: red;
+  border-left: 5px solid #0a5;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+.story-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story-image img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+/* Our Team */
+.our-team {
+  padding: 4rem 2rem;
+  background: #f5fdf6;
+  text-align: center;
+}
+.our-team h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.team-member {
+  background: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.team-member:hover {
+  transform: translateY(-5px);
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.team-member h3 {
+  margin: 1rem 0 0.2rem;
+}
+.team-member p {
+  color: #666;
+  font-size: 0.95rem;
+}
+.team-member a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #006400;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* What We Do */
+.what-we-do {
+  background: #f5fdf6;
+  padding: 4rem 2rem;
+}
+.what-we-do h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #003300;
+  font-size: 2rem;
+}
+.accordion details {
+  background: #fff;
+  border-left: 5px solid #008000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.accordion details span {
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.accordion summary {
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  /* Hero Section */
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Our Story */
+  .our-story {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .story-text,
+  .story-image {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .story-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Our Team */
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  /* What We Do */
+  .accordion details {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+
+  .accordion summary {
+    font-size: 1rem;
+  }
+}

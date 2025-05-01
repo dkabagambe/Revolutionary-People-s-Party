@@ -1,6 +1,7 @@
 .issues-section {
   padding: 4rem 2rem;
   text-align: center;
+  background: #f5fdf6;
 }
 
 .issues-title {
@@ -16,7 +17,7 @@
 }
 
 .issue-card {
-  background: #f7f7f7;
+  background: #f1eef8;
   padding: 2rem;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
