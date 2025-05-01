@@ -9,20 +9,22 @@
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #222;
+  font-size: 2.5rem;
 }
 
 .subheading {
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
-  color: red;
+  font-size: 1.7rem;
+  color: green;
 }
 
 .description {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #555;
+  color: red;
+  font-size: 1.3rem;
 }
 
 .membership-form label {
@@ -34,7 +36,7 @@ h1 {
 .membership-form input,
 .membership-form select {
   width: 100%;
-  padding: 0.6rem;
+  padding: 1rem;
   border-radius: 5px;
   border: 1px solid #ccc;
   outline: none;

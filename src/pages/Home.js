@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import videorpp from "../img/rpp.mp4";
+import videorpp from "../img/VID-20250501-WA0052.mp4";
 import MissionSection from "./MissionSection";
 import VideoSection from "./VideoSection";
 import IssuesSection from "./IssuesSection";
@@ -15,10 +15,10 @@ const Home = () => {
             <source src={videorpp} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="overlay">
+          {/* <div className="overlay">
             <h1 className="hero-title">Revolutionary People’s Party(RPP)</h1>
             <p className="hero-subtitle">we are fired up and ready to win</p>
-          </div>
+          </div> */}
         </section>
         <section className="cta">
           <h2>
