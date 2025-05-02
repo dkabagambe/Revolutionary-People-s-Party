@@ -1,0 +1,172 @@
+.hero-page {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #f5fdf6;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.cta-button {
+  padding: 1rem;
+  background: #a37051;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background: #eca578;
+}
+
+/* Leadership Section */
+.leadership-structure {
+  background-color: #f5f5f5;
+  color: #122;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  padding: 1rem 1.5rem;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: #222;
+  cursor: pointer;
+  margin: 1.5rem;
+  transition: background 0.3s ease;
+  font-family: garamond;
+  font-size: 1rem;
+}
+
+.tab-button.active,
+.tab-button:hover {
+  background: #a37051;
+  color: white;
+}
+
+.tab-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #222;
+  background-color: #f5f5f5;
+}
+
+.tab-content h3 {
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 23px;
+}
+
+.tab-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.tab-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 2rem;
+    color: #000;
+  }
+
+  .hero-overlay p {
+    font-size: 1.4rem;
+  }
+
+  .cta-button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .tab-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .tab-button {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.8rem;
+  }
+
+  .tab-content {
+    padding: 1.5rem;
+  }
+}
