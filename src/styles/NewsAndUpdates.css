@@ -1,0 +1,85 @@
+.news-updates {
+  padding: 2rem;
+  background: #f9f9f9;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.news-updates h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #2b2b2b;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 0.75rem;
+}
+
+.tabs button {
+  padding: 0.6rem 1.2rem;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tabs button.active,
+.tabs button:hover {
+  background: #a37051;
+  color: #fff;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: top;
+  font-size: 20px;
+}
+
+table th {
+  background: #f0f0f0;
+  font-weight: 600;
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabs button {
+    width: 90%;
+    text-align: center;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+}

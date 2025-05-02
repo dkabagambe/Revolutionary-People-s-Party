@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import MembershipForm from "./components/ MembershipForm";
 import AboutUs from "./components/AboutUs";
 import LeadershipStructureSection from "./pages/LeadershipStructureSection";
+import NewsAndUpdates from "./pages/NewsAndUpdates";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/leadership" element={<LeadershipStructureSection />} />
           <Route path="/membership" element={<MembershipForm />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/news" element={<NewsAndUpdates />} />
         </Routes>
         <Footer />
       </Router>

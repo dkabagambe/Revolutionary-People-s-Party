@@ -29,8 +29,8 @@ const Header = () => {
           <Link to="/leadership" className="nav-link">
             Leadership
           </Link>
-          <Link to="/issues" className="nav-link">
-            Issues
+          <Link to="/news" className="nav-link">
+            News
           </Link>
           <Link to="/contact" className="nav-link">
             Contact
