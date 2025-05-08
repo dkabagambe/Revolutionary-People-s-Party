@@ -40,7 +40,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: #ddd;
+  color: #fff;
   font-weight: 550;
   font-size: 20px;
   list-style-type: none;
@@ -58,7 +58,7 @@
 .bar {
   width: 25px;
   height: 3px;
-  background-color: #ddd;
+  background-color: #f5fdf6;
 }
 
 /* ✅ NEW: Close button styles */
@@ -111,7 +111,7 @@
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #f5fdf6;
     border-radius: 2px;
   }
 
@@ -121,7 +121,7 @@
     width: 100%;
     padding-left: 1rem;
     font-size: 18px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid #f5fdf6;
   }
 
   .close-btn {
@@ -130,7 +130,7 @@
     font-size: 2rem;
     background: none;
     border: none;
-    color: #fff;
+    color: #f5fdf6;
     margin-bottom: 1rem;
     cursor: pointer;
   }
