@@ -8,6 +8,7 @@ import AboutUs from "./components/AboutUs";
 import LeadershipStructureSection from "./pages/LeadershipStructureSection";
 import NewsAndUpdates from "./pages/NewsAndUpdates";
 import WhatsApp from "./components/WhatsApp";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/membership" element={<MembershipForm />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/news" element={<NewsAndUpdates />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <WhatsApp />
         <Footer />

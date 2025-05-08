@@ -26,6 +26,7 @@ const Header = () => {
             "/news",
             "/contact",
             "/membership",
+            "/contact",
           ].map((path, index) => (
             <Link
               key={index}

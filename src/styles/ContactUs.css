@@ -1,0 +1,104 @@
+.contact-page {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.contact-hero {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1;
+  min-width: 280px;
+  margin: 1rem;
+}
+
+.contact-left h2,
+.contact-right h2 {
+  margin-bottom: 1rem;
+  color: #a37051;
+}
+
+.contact-left p,
+.contact-right li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li a {
+  color: #a37051;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.map-section {
+  width: 100%;
+  height: 60vh;
+}
+
+.map-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1.2rem;
+  }
+}
