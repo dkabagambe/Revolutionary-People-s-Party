@@ -1,4 +1,3 @@
-// --- components/Header.js ---
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
@@ -7,38 +6,43 @@ import logo from "../img/logo.png";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
     <header className="header">
       <div className="container">
         <div className="logo">
-          <Link to="/" className="logo-link">
-            <img src={logo} alt="RPP)" />
+          <Link to="/" className="logo-link" onClick={closeMenu}>
+            <img src={logo} alt="RPP" />
           </Link>
         </div>
+
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
-          <Link to="/" className="nav-link">
-            Home
-          </Link>
-          <Link to="/about" className="nav-link">
-            About
-          </Link>
-          <Link to="/leadership" className="nav-link">
-            Leadership
-          </Link>
-          <Link to="/news" className="nav-link">
-            News
-          </Link>
-          <Link to="/contact" className="nav-link">
-            Contact
-          </Link>
-          <Link to="/membership" className="nav-link">
-            Register
-          </Link>
+          {[
+            "/",
+            "/about",
+            "/leadership",
+            "/news",
+            "/contact",
+            "/membership",
+          ].map((path, index) => (
+            <Link
+              key={index}
+              to={path}
+              className="nav-link"
+              onClick={closeMenu}
+            >
+              {path === "/"
+                ? "Home"
+                : path.replace("/", "").charAt(0).toUpperCase() + path.slice(2)}
+            </Link>
+          ))}
+          <button className="close-btn" onClick={closeMenu}>
+            ×
+          </button>
         </nav>
+
         <button className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
           <span className="bar"></span>

@@ -1,0 +1,28 @@
+/* Shared styles for desktop and mobile */
+.whatsapp_float,
+.whatsapp {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  bottom: 40px;
+  right: 70px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 767px) {
+  .whatsapp_float,
+  .whatsapp {
+    width: 40px;
+    height: 40px;
+    bottom: 50px;
+    right: 30px;
+  }
+}

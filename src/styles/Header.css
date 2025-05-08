@@ -16,10 +16,9 @@
   align-items: center;
 }
 
-/* Logo styles */
 .logo {
   display: flex;
-  align-items: left;
+  align-items: center;
 }
 
 .logo img {
@@ -43,11 +42,8 @@
   text-decoration: none;
   color: #ddd;
   font-weight: 550;
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
   font-size: 20px;
+  list-style-type: none;
 }
 
 .hamburger {
@@ -65,15 +61,33 @@
   background-color: #ddd;
 }
 
+/* ✅ NEW: Close button styles */
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
   .nav {
     position: absolute;
-    top: 60px;
+    top: 100%;
     right: 0;
-    background: white;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     display: none;
+    padding: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #a37051;
   }
 
   .nav.open {
@@ -82,5 +96,15 @@
 
   .hamburger {
     display: flex;
+  }
+
+  .nav-link {
+    color: #333;
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+
+  .close-btn {
+    display: block;
   }
 }
