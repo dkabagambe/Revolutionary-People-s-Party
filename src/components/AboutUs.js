@@ -69,7 +69,7 @@ const AboutUs = () => {
           <div className="team-member">
             <img src={jafar} alt="Coordinator" />
             <h3>Musana Jafali</h3>
-            <p>National Mobilizer</p>
+            <p>Head of Mobilization</p>
             <Link to="">See Profile</Link>
           </div>
         </div>
