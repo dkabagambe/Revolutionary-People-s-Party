@@ -80,36 +80,58 @@
     position: absolute;
     top: 100%;
     right: 0;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     width: 100%;
     display: none;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     background: #a37051;
+    z-index: 999;
   }
 
   .nav.open {
     display: flex;
+    text-align: center;
   }
 
   .hamburger {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
   }
 
   .nav-link {
-    color: #333;
+    color: #fff;
     padding: 0.75rem 0;
     width: 100%;
-    padding-left: 4rem;
+    padding-left: 1rem;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .close-btn {
     display: block;
-  }
-  .bar {
-    display: none;
+    align-self: flex-end;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
   }
 }
