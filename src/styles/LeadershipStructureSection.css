@@ -40,8 +40,11 @@
 }
 
 .hero-overlay p {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-weight: 300;
+  font-size: clamp(10px, 5vw, 18px);
+  line-height: clamp(1.5, 1.6, 1.8);
+  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
   color: #fff;
 }
 
@@ -120,14 +123,18 @@
 
 .tab-content h3 {
   color: #000;
-  margin-bottom: 1rem;
-  font-size: 23px;
+  font-size: clamp(20px, 1.5vw + 1rem, 22px);
+  font-weight: 500;
+  margin-bottom: calc(0.8 * clamp(10px, 2vw + 1rem, 15px));
 }
 
 .tab-content ul {
   padding-left: 1.5rem;
-  margin-top: 1rem;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: clamp(10px, 5vw, 18px);
+  line-height: clamp(1.5, 1.6, 1.8);
+  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
   list-style-type: decimal-leading-zero;
 }
 

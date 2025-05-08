@@ -26,13 +26,13 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <Link to="/manifesto">Manifesto</Link>
+              <Link to="/news">News</Link>
             </li>
             <li>
               <Link to="/leadership">Leadership</Link>
             </li>
             <li>
-              <Link to="/events">Events</Link>
+              <Link to="/contact">contact</Link>
             </li>
             <li>
               <Link to="/membership">Join RPP</Link>
@@ -53,7 +53,7 @@ const Footer = () => {
           <h3>Follow Us</h3>
           <div className="social-icons">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61572705284188"
               target="_blank"
               rel="noopener noreferrer"
             >

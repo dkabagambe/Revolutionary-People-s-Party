@@ -39,7 +39,9 @@
 }
 
 .issue-description {
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: clamp(10px, 5vw, 18px);
+  line-height: clamp(1.5, 1.6, 1.8);
   color: #555;
 }
 

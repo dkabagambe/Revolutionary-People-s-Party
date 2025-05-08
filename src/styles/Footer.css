@@ -28,7 +28,9 @@
 .footer-section p,
 .footer-section li,
 .footer-bottom {
-  font-size: 18px;
+  font-weight: 300;
+  font-size: clamp(10px, 5vw, 18px);
+  line-height: clamp(1.5, 1.6, 1.8);
 }
 
 .footer-section ul {

@@ -22,11 +22,11 @@ const ContactUs = () => {
             <strong>Address:</strong> Kampala, Uganda
           </p>
           <p>
-            <strong>Email:</strong>{" "}
+            <strong>Email:</strong>
             <a href="mailto:info@rppuganda.org">info@rppuganda.org</a>
           </p>
           <p>
-            <strong>Phone:</strong>{" "}
+            <strong>Phone:</strong>
             <a href="tel:+25656757511823">(+256) 56757511823</a>
           </p>
         </div>
@@ -35,7 +35,7 @@ const ContactUs = () => {
           <ul className="social-links">
             <li>
               <a
-                href="https://www.facebook.com/rppuganda"
+                href="https://www.facebook.com/profile.php?id=61572705284188"
                 target="_blank"
                 rel="noopener noreferrer"
               >
