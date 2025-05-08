@@ -1,7 +1,5 @@
 .header {
   background: #a37051;
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -73,6 +71,22 @@
   cursor: pointer;
   display: none;
 }
+.donate-btn {
+  background-color: #31271c;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  margin-left: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.donate-btn:hover {
+  background-color: #2f231e;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -133,5 +147,15 @@
     color: #f5fdf6;
     margin-bottom: 1rem;
     cursor: pointer;
+  }
+  .donate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    text-align: center;
+    margin: 1rem auto; /* Centers horizontally */
+    transition: all 0.3s;
+    width: 200px;
   }
 }

@@ -20,25 +20,24 @@ const Header = () => {
 
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           {[
-            "/",
-            "/about",
-            "/leadership",
-            "/news",
-            "/contact",
-            "/membership",
-            "/contact",
-          ].map((path, index) => (
+            { path: "/", label: "Home" },
+            { path: "/about", label: "About" },
+            { path: "/leadership", label: "Leadership" },
+            { path: "/news", label: "News" },
+            { path: "/contact", label: "Contact" },
+            { path: "/membership", label: "Register" },
+            { path: "/", label: "Donate", isButton: true },
+          ].map(({ path, label, isButton }, index) => (
             <Link
               key={index}
               to={path}
-              className="nav-link"
+              className={isButton ? "donate-btn" : "nav-link"}
               onClick={closeMenu}
             >
-              {path === "/"
-                ? "Home"
-                : path.replace("/", "").charAt(0).toUpperCase() + path.slice(2)}
+              {label}
             </Link>
           ))}
+
           <button className="close-btn" onClick={closeMenu}>
             ×
           </button>
