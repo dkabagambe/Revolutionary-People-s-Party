@@ -64,13 +64,15 @@ const AboutUs = () => {
             <img src={cmk} alt="President" />
             <h3>Hon. Charles Mutaasa KAFEERO </h3>
             <p>Party President</p>
-            <Link to="">See Profile</Link>
+            <Link to="https://www.facebook.com/profile.php?id=100079234951848">
+              See Profile
+            </Link>
           </div>
           <div className="team-member">
             <img src={jafar} alt="Coordinator" />
             <h3>Musana Jafali</h3>
             <p>Head of Mobilization</p>
-            <Link to="">See Profile</Link>
+            <Link to="https://www.facebook.com/musana.jafali">See Profile</Link>
           </div>
         </div>
       </section>
