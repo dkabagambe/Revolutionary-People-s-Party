@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import "../styles/LeadershipStructureSection.css";
 import videorpp from "../img/rpp.mp4";
 
@@ -60,7 +60,10 @@ const HeroAndLeadership = () => {
         <div className="hero-overlay">
           <h1>Revolutionary Peoples Party</h1>
           <p>Transforming leadership, empowering communities.</p>
-          <button className="cta-button">Join the Movement</button>
+
+          <Link to="/membership">
+            <button className="cta-button">Join the Movement</button>
+          </Link>
         </div>
       </section>
 

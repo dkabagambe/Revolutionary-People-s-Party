@@ -5,6 +5,7 @@ import MissionSection from "./MissionSection";
 import VideoSection from "./VideoSection";
 import IssuesSection from "./IssuesSection";
 import CandidatesSection from "./CandidatesSection";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -39,7 +40,9 @@ const Home = () => {
             between government and citizens, restore institutional integrity,
             and uphold the fundamental rights and aspirations of all Ugandans
           </p>
-          <button className="cta-button">Join RPP</button>
+          <Link to="/membership">
+            <button className="cta-button">Join RPP</button>
+          </Link>
         </section>
       </div>
       <MissionSection />

@@ -29,7 +29,7 @@
 .footer-section p,
 .footer-section li,
 .footer-bottom {
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(10px, 5vw, 18px);
   line-height: clamp(1.5, 1.6, 1.8);
 }
