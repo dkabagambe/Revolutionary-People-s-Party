@@ -44,7 +44,7 @@
 }
 
 .cta {
-  padding: 3rem 2rem;
+  padding: 2rem 5rem;
   text-align: center;
   background-color: #f5fdf6;
 }
@@ -57,7 +57,7 @@
 }
 .cta p {
   font-weight: 300;
-  font-size: clamp(10px, 5vw, 18px);
+  font-size: clamp(14px, 3vw, 22px);
   line-height: clamp(1.5, 1.6, 1.8);
   text-align: left;
   margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
@@ -81,5 +81,10 @@
 
   .hero-subtitle {
     font-size: 1rem;
+  }
+  .cta {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #f5fdf6;
   }
 }
