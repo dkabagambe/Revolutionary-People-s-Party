@@ -1,5 +1,6 @@
 .about-us {
   color: #000;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* Hero Section */
@@ -14,8 +15,10 @@
   text-align: center;
 }
 .hero-content h1 {
-  font-size: 3.2rem;
-  margin-bottom: 0.5rem;
+  font-size: clamp(30px, 2vw + 1rem, 40px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 .hero-content p {
   font-weight: 300;
@@ -48,13 +51,14 @@
 .story-text {
   flex: 1;
   font-weight: 300;
-  font-size: clamp(14px, 5vw, 18px);
+  font-size: clamp(14px, 3vw, 22px);
   line-height: clamp(1.5, 1.6, 1.8);
-  text-align: left;
   margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
 }
 .story-text h2 {
-  font-size: 2.2rem;
+  font-size: clamp(30px, 2vw + 1rem, 40px);
+  font-weight: 500;
+  line-height: 1.2;
   color: #0d3d0d;
 }
 .story-text blockquote {

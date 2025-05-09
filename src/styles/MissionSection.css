@@ -86,7 +86,7 @@
   margin-bottom: calc(0.8 * clamp(30px, 2vw + 1rem, 35px));
 }
 .get-involved {
-  background: linear-gradient(to bottom, #a37051, #b37051);
+  background: linear-gradient(to bottom, #666, #666666);
   color: #f5fdf6;
   padding: 4rem 2rem;
   text-align: center;
