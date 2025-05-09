@@ -16,8 +16,8 @@ const Footer = () => {
         <div className="footer-section about">
           <h2>RPP</h2>
           <p>
-            The Revolutionary People’s Party is committed to a united, just, and
-            empowered Uganda.
+            Revolutionary People’s Party is a Ugandan Opposition Political PARTY
+            formed and fully registered by the Electoral Commission in 2013
           </p>
         </div>
 
