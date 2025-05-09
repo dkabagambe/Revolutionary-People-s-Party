@@ -82,6 +82,13 @@
   max-width: 90%;
   border-radius: 10px;
 }
+.story-image img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
 
 /* Our Team */
 .our-team {
@@ -117,17 +124,20 @@
 }
 .team-member h3 {
   margin: 1rem 0 0.2rem;
+  font-size: clamp(20px, 1.5vw + 1rem, 22px);
+  font-weight: 550;
 }
 .team-member p {
   color: #666;
-  font-size: 0.95rem;
+  font-size: clamp(14px, 3vw, 18px);
 }
 .team-member a {
   display: inline-block;
-  margin-top: 0.5rem;
   color: #006400;
   font-weight: bold;
   text-decoration: none;
+  font-weight: 400;
+  font-size: clamp(12px, 5vw, 18px);
 }
 
 /* What We Do */
@@ -137,9 +147,10 @@
 }
 .what-we-do h2 {
   text-align: center;
-  margin-bottom: 2rem;
   color: #003300;
-  font-size: 2rem;
+  font-size: clamp(30px, 2vw + 1rem, 40px);
+  font-weight: 500;
+  line-height: 1.2;
 }
 .accordion details {
   background: #fff;
@@ -149,6 +160,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-size: 20px;
+  background: #f5fdf6;
 }
 .accordion details span {
   display: block;
